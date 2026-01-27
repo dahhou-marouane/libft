@@ -54,6 +54,6 @@ fclean:
 	@echo "rm .o and .a"
 	@rm -f $(OBJ)
 
-re: fclean all
+re: fclean allft_printf.c  ft_put.c
 
 .PHONY: clean fclean
